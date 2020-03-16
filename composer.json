@@ -1,0 +1,24 @@
+{
+    "name": "kezungui\/laravel-kafka",
+    "description": "kafka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kezungui",
+            "email": "kezungui@comteck.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kezungui\\LaravelKafka\\": ""
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Kezungui\\LaravelKafka\\Providers\\KafkaServiceProvider"
+            ]
+        }
+    }
+}
